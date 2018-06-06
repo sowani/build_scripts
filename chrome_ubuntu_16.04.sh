@@ -4,7 +4,7 @@
 # Ref.: https://chromium.googlesource.com/chromium/src/+/master/docs/linux_build_instructions.md
 
 apt-get update -y
-apt-get install -y git python lsb-release
+apt-get install -y git python lsb-release wget curl
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 export PATH=$PATH:`pwd`/depot_tools
 mkdir ~/chromium && cd ~/chromium
